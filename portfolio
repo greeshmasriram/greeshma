@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Greeshma Sriram Sakhamuri">
+    <title>Greeshma Sriram Sakhamuri Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Full-Width Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+    <div class="home-container">
+        <h1>Hello and Welcome!</h1>
+        <h1>I am Greeshma Sriram Sakhamuri</h1>
+        <h2 class="job-title">Data Analyst</h2>
+    </div>
+</section>
+
+    
+    <section id="about" class="about-section">
+    <br>
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+        <div class="about-image">
+            <img src="pictures/about-me-image.jpg" alt="About Me Image">
+        </div>
+        <div class="about-description">
+            <p>
+                Data has always fascinated me deeply. Uncovering patterns, solving problems, 
+                and transforming raw data into meaningful insights has been at the core of my work 
+                for over three years. I love bringing data to life through compelling visualizations 
+                and strategic storytelling, turning complexity into clarity. I leverage analytics 
+                to drive impactful decisions, streamline processes, and create real business value.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="education">
+        <br>
+        <h2 style="text-align: center;">Education</h2>
+        <br>
+        <div class="education-container">
+            <!-- Education 1: New York Institute of Technology-->
+            <div class="education-item" onclick="openPopup('utah-popup')">
+                <img src="https://d13b2ieg84qqce.cloudfront.net/a0401a82e6d91e50dc0ba3f530add9870abd386c" alt="New York Institute of Technology">
+                <h4>New York Institute of Technology</h4>
+                <p>Manhattan, New York</p>
+                <p>Masters in Data Science</p>
+                <p>August 2023 - May 2025</p>
+            </div>
+
+            <!-- Education 2: BVRIT Hyderabad -->
+            <div class="education-item" onclick="openPopup('bvrit-popup')">
+                <img src="pictures/bvrit-hyderabad.jpeg" alt="BVRIT Hyderabad">
+                <h4>BVRIT Hyderabad, JNTU University</h4>
+                <p>Hyderabad, India</p>
+                <p>Bachelors in Electronics and Communication Engineering</p>
+                <p>July 2017 - August 2021</p>
+            </div>
+        </div>
+
+        <!-- Popup for New York Institute of Technology -->
+        <div id="nyit-popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('nyit-popup')">&times;</span>
+                <h4>Courses</h4>
+                <ul>
+                    <li>Database Systems</li>
+                    <li>Python programming</li>
+                    <li>Big Data</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Advanced SQL</li>
+                
+                </ul>
+            </div>
+        </div>
+
+        <!-- Popup for BVRIT Hyderabad -->
+        <div id="bvrit-popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('bvrit-popup')">&times;</span>
+                <h4>Courses</h4>
+                <ul>
+                    <li>Database Management</li>
+                    <li>R Programming</li>
+                    <li>Matlab Software</li>
+                    <li>Mathematics and Statistics</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <br> <!-- Line break before heading -->
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill-box">
+            <img src="pictures/powerbi-logo.jpg" alt="Power BI">
+            <span>Power BI</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/tableau-logo.png" alt="Tableau">
+            <span>Tableau</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/domo-logo.png" alt="Domo">
+            <span>Domo</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/looker-logo.png" alt="Looker">
+            <span>Looker</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/python-logo.png" alt="Python">
+            <span>Python</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/sql-logo.jpg" alt="SQL">
+            <span>SQL</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/r-logo.png" alt="R">
+            <span>R</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/java-logo.png" alt="Java">
+            <span>Java</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/excel-logo.jpeg" alt="Excel">
+            <span>Excel</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/word-logo.png" alt="Word">
+            <span>Word</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/powerpoint-logo.png" alt="PowerPoint">
+            <span>PowerPoint</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/sharepoint-logo.jpeg" alt="SharePoint">
+            <span>SharePoint</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/salesforce-logo.png" alt="Salesforce">
+            <span>Salesforce</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/jira-logo.png" alt="Jira">
+            <span>Jira</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/git-logo.png" alt="Git">
+            <span>Git</span>
+        </div>
+        <div class="skill-box">
+            <img src="pictures/powerautomate-logo.png" alt="Power Automate">
+            <span>Power Automate</span>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Experience Section -->
+<section id="experience" class="experience-section">
+    <br> 
+    <h2>Experience</h2>
+
+        <!-- Experience 2 -->
+        <div class="experience-item">
+            <img src="" class="experience-logo">
+            <div class="experience-info">
+                <h3>Aspiron Technologies</h3>
+                <p>Business Intelligence Data Analyst</p>
+                <p>Oct 2022 - June 2023</p>
+            </div>
+        </div>
+
+       
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="experience-item">
+            <img src="pictures/enghub-logo.jpeg" alt="Engineers Hub Logo" class="experience-logo">
+            <div class="experience-info">
+                <h3>Engineers Hub</h3>
+                <p>Sofware Engineer Intern</p>
+                <p>Dec 2020 - Feb 2021</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects and Case Studies Section -->
+<section id="projects" class="projects-section">
+    <br> <!-- Line break before heading -->
+    <h2>Projects and Case Studies</h2>
+    <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-item">
+            <img src="pictures/project.jpg" alt="Project Image">
+            <h3>Project 1: Financial Data Analysis</h3>
+            <p>Created Power BI dashboards with useful insights from financial loan data. Included comparision between favourable and unfavourable loans, monthly trends, analysis of loans by different aspects like state, loan purpose etc.</p>
+            <a href="https://github.com/Krishna-Swathi/Projects/tree/main/Financial%20loan%20analysis%20-%20Power%20BI%20dashboard" target="_blank" class="btn">More Info</a>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-item">
+            <img src="pictures/project.jpg" alt="Project Image">
+            <h3>Project 2: Wide World Importers Data Warehouse</h3>
+            <p>Designed and implemented the data warehouse for Wide World Importers. Performed entire ETL process in Microsoft Fabric, performed Data Analysis and created Visualizations</p>
+            <a href="https://github.com/Krishna-Swathi/Projects/tree/main/Wide%20World%20Importers%20Data%20Warehouse" target="_blank" class="btn">More Info</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-item">
+            <img src="pictures/project.jpg" alt="Project Image">
+            <h3>Project 3: Impact of Commodities on Stocks</h3>
+            <p>Analyzed the impact of commodity price fluctuations on stock market performance. Built a data pipeline that automates the process of retrieving daily updated stocks data, correlated it with real-time commodity price data, and performed analysis to find any patterns or dependencies between these two data sources.</p>
+            <a href="https://github.com/Krishna-Swathi/Projects/tree/main/Impact%20of%20Commodities%20on%20Stocks" target="_blank" class="btn">More Info</a>
+        </div>
+
+        <!-- Case Study 1 -->
+        <div class="project-item">
+            <img src="pictures/project.jpg" alt="Project Image">
+            <h3>Case Study 1: Unpaid Claims - Potential Reasons</h3>
+            <p>When a department noticed increase in unpaid claims, tried to to understand if the demographic information on the unpaid claims will tell anything about potential reasons for this situation. Used Excel for cleaning and transforming data and Power BI for visualizations</p>
+            <a href="https://github.com/Krishna-Swathi/Case-Studies/tree/main/Unpaid%20Claims%20-%20Potential%20Reasons" target="_blank" class="btn">More Info</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sgreeshma.sriram@gmail.com">sgreeshma.sriram@gmail.com</a></p>
+        <p>Phone: (516)-968-1027</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sgreeshma6/" target="_blank">LinkedIn Profile</a></p>
+    </section>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/sgreeshma6/" target="_blank">LinkedIn</a> | <a href="mailto:youremail@example.com">Email Me</a></p>
+    </footer>
+
+    <!-- Link to your JavaScript file -->
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
